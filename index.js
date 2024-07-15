@@ -36,5 +36,15 @@ const renderArtists = () => {
     // Put each artist's name in the LI
     li.innerText = artist.name;
   });
+
+  // When you click on an artist, you go to a page that shows an image, their name, and a biography.
+    // Grab the artist LIs
+    // Put an event listener on them, for a click event
+    // When you click, it matches their details in state with the LI by the name.
+    // Re-render the page with the image, name, and bio from that artist's object in artists.state 
+    //Include a back button, which re-renders the original page. This requires: 
+      // Grabbing it
+      // Attaching an event listener
+      // Re-rendering main page
 }
   
